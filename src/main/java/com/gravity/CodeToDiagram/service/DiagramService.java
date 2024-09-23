@@ -37,7 +37,7 @@ public class DiagramService {
         SourceStringReader reader = new SourceStringReader(plantUmlScript_SeqDiag);
         */
 
-
+/*
         //Class Diagram Input:
         String plantUmlScript_ClsDiagram = "@startuml\n" +
                 "class User {\n" +
@@ -54,8 +54,8 @@ public class DiagramService {
         System.out.println(plantUmlScript_ClsDiagram);
         SourceStringReader reader = new SourceStringReader(plantUmlScript_ClsDiagram);
 
+*/
 
-/*
         //Sequence Diagram with Alternative Conditions
         String plantUmlScript_SeqDiagAltCond = "@startuml\n" +
                 "participant User\n" +
@@ -68,7 +68,7 @@ public class DiagramService {
                 "@enduml\n";
         System.out.println(plantUmlScript_SeqDiagAltCond);
         SourceStringReader reader = new SourceStringReader(plantUmlScript_SeqDiagAltCond);
-*/
+
 
 /*
         //Test ground
